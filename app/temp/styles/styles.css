@@ -444,4 +444,49 @@ select { /* 1 */
         margin: -10px 0;
     }.tooltip:hover .about {
             display: inline-block;
-        }
+        }h1 {
+    font-size: 2.0rem;
+    margin: 0;
+}@media (min-width: 768px) {h1 {
+        font-size: 2.5rem
+}
+    }@media (min-width: 992px) {h1 {
+        font-size: 3.0rem
+}
+    }@media (min-width: 1200px) {h1 {
+        font-size: 3.5rem
+}
+    }h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}@media (min-width: 768px) {h2 {
+        font-size: 2.0rem
+}
+    }@media (min-width: 992px) {h2 {
+        font-size: 2.5rem
+}
+    }@media (min-width: 1200px) {h2 {
+        font-size: 3.0rem
+}
+    }h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    font-weight: normal;
+}@media (min-width: 768px) {h3 {
+        font-size: 1.4rem
+}
+    }@media (min-width: 992px) {h3 {
+        font-size: 1.6rem
+}
+    }@media (min-width: 1200px) {h3 {
+        font-size: 2.0rem
+}
+    }p {
+    font-size: 1.0rem;
+}@media (min-width: 992px) {p {
+        font-size: 1.3rem
+}
+    }a {
+    color: inherit;
+    text-decoration: none;
+}

@@ -1,0 +1,64 @@
+h1 {
+    font-size: 2.0rem;
+    margin: 0;
+
+    @mixin atSmall {
+        font-size: 2.5rem;
+    }
+
+    @mixin atMedium {
+        font-size: 3.0rem;
+    }
+
+    @mixin atLarge {
+        font-size: 3.5rem;
+    }
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+
+    @mixin atSmall {
+        font-size: 2.0rem;
+    }
+
+    @mixin atMedium {
+        font-size: 2.5rem;
+    }
+
+    @mixin atLarge {
+        font-size: 3.0rem;
+    }
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    font-weight: normal;
+
+    @mixin atSmall {
+        font-size: 1.4rem;
+    }
+
+    @mixin atMedium {
+        font-size: 1.6rem;
+    }
+
+    @mixin atLarge {
+        font-size: 2.0rem;
+    }
+}
+
+p {
+    font-size: 1.0rem;
+
+    @mixin atMedium {
+        font-size: 1.3rem;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
