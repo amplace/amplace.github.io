@@ -1,0 +1,25 @@
+.tooltip {
+
+    position: relative;
+    font-size: 3rem;
+
+    & .about {
+        display: none;
+        text-align: left;
+        font-size: 0.8rem;
+        height: 3rem;
+        vertical-align: middle;
+
+    }
+
+    &:hover {
+        border: 1px solid;
+        border-radius: 10px;
+        margin: -10px 0;
+
+        & .about {
+            display: inline-block;
+        }
+    }
+
+}

@@ -362,4 +362,86 @@ select { /* 1 */
     }.section__content {
         width: 80%;
         margin: 0 auto;
-    }
+    }fieldset {
+    -webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+            border-radius: 15px;
+}legend .title {
+    padding: 0 5px;
+    margin-top: -10px;
+}.fab {
+
+        padding: 5px 10px 0 10px;
+        font-size: 3rem;
+    }.fa-scale {
+        -webkit-transition: scale .5s linear;
+        -o-transition: scale .5s linear;
+        -moz-transition: scale .5s linear;
+        transition: scale .5s linear;
+    }.fa-scale:hover {
+            -webkit-transform: scale(1.2);
+               -moz-transform: scale(1.2);
+                -ms-transform: scale(1.2);
+                 -o-transform: scale(1.2);
+                    transform: scale(1.2);
+        }.fa-html5 {
+        color: coral;
+    }.fa-css3-alt {
+        color: dodgerblue;
+    }.fa-js-square {
+        color: goldenrod;
+    }.fa-node-js {
+        color: forestgreen;
+    }.fa-wordpress {
+        color: steelblue;
+    }.fa-vuejs {
+        color: mediumseagreen;
+    }.fa-react {
+        color: deepskyblue;
+    }.row {
+    display: block;
+    width: 100%;
+}.row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }.col {
+    float: left;
+    width: 100%;
+}@media (min-width: 992px) {
+            .col-sm-6 {
+                width: 50%;
+            }
+
+            .col-sm-4 {
+                width: 33%;
+            }
+    }@media (min-width: 1200px) {
+            .col-md-6 {
+                width: 50%;
+            }
+
+            .col-md-4 {
+                width: 33%;
+            }
+    }.tooltip {
+
+    position: relative;
+    font-size: 3rem;
+
+}.tooltip .about {
+        display: none;
+        text-align: left;
+        font-size: 0.8rem;
+        height: 3rem;
+        vertical-align: middle;
+
+    }.tooltip:hover {
+        border: 1px solid;
+        -webkit-border-radius: 10px;
+           -moz-border-radius: 10px;
+                border-radius: 10px;
+        margin: -10px 0;
+    }.tooltip:hover .about {
+            display: inline-block;
+        }

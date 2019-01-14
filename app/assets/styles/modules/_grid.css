@@ -1,0 +1,34 @@
+.row {
+    display: block;
+    width: 100%;
+    @mixin clearfix;
+}
+
+.col {
+    float: left;
+    width: 100%;
+
+    &-sm {
+        @mixin atMedium {
+            &-6 {
+                width: 50%;
+            }
+
+            &-4 {
+                width: 33%;
+            }
+        }
+    }
+
+    &-md {
+        @mixin atLarge {
+            &-6 {
+                width: 50%;
+            }
+
+            &-4 {
+                width: 33%;
+            }
+        }
+    }
+}

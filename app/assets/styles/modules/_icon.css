@@ -1,0 +1,44 @@
+.fa {
+    &b {
+
+        padding: 5px 10px 0 10px;
+        font-size: 3rem;
+    }
+
+    &-scale {
+        transition: scale .5s linear;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+
+    &-html5 {
+        color: coral;
+    }
+
+    &-css3-alt {
+        color: dodgerblue;
+    }
+
+    &-js-square {
+        color: goldenrod;
+    }
+
+    &-node-js {
+        color: forestgreen;
+    }
+
+    &-wordpress {
+        color: steelblue;
+    }
+
+    &-vuejs {
+        color: mediumseagreen;
+    }
+
+    &-react {
+        color: deepskyblue;
+    }
+
+}

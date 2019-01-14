@@ -4,3 +4,6 @@
 @import "modules/_header";
 @import "modules/_section";
 @import "modules/_form";
+@import "modules/_icon";
+@import "modules/_grid";
+@import "modules/_tooltip";
