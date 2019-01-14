@@ -1,0 +1,22 @@
+.section {
+    /* size */
+    min-height: 50vh;
+    max-width: 960px;
+    /* position */
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    /* text */
+    text-align: center;
+    color: #004d63;
+    
+    &--center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    &__content {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

@@ -8,9 +8,6 @@
     /* text */
     text-align: center;
     color: white;
-    /* content position */
-    display: flex;
-    align-items: center;
     /* background */
     background: rgba(0, 0, 0, 0.8) url('../../assets/img/header-small.JPG') no-repeat center top; 
     background-size: cover;
