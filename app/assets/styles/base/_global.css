@@ -1,0 +1,15 @@
+
+/* font import */
+@import url('https://fonts.googleapis.com/css?family=Itim|Quicksand:300');
+
+/* include padding and border in an element's total width and height */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Itim', cursive;
+    padding: 0;
+    margin: 0;
+    background-color: #f9f7f9;
+}
