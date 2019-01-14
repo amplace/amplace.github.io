@@ -1,22 +1,45 @@
 .section {
     /* size */
-    min-height: 50vh;
-    max-width: 960px;
+    min-height: 51vh;
+    width: 100%;
     /* position */
     margin: 0 auto;
     padding: 0 20px 20px 20px;
     /* text */
     text-align: center;
     color: #004d63;
-    
+
     &--center {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    
+
     &__content {
         width: 80%;
+        max-width: 960px;
         margin: 0 auto;
+    }
+
+    &__count {
+        /* background */
+        background: url('../../assets/img/counters-small.JPG') no-repeat center top;
+        background-size: cover;
+        background-attachment: fixed;
+
+        @mixin atSmall {
+            background-image: url('../../assets/img/counters-medium.JPG');
+            justify-content: flex-start;
+        }
+
+        @mixin atMedium {
+            background-image: url('../../assets/img/counters-large.JPG');
+        }
+
+        &__content {
+            width: 70%;
+            padding: 10px 20px;
+            color: white;
+        }
     }
 }
