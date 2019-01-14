@@ -362,7 +362,6 @@ select { /* 1 */
     }.section__content {
         width: 80%;
         max-width: 960px;
-        margin: 0 auto;
         color: #004d63;
     }.section__count {
         /* background */
