@@ -389,7 +389,7 @@ select { /* 1 */
         padding-bottom: 50px;
         font-size: 1.0rem;
         /* background */
-        background-image: url('../../assets/img/contact-small.JPG') no-repeat center top;
+        background: url('../../assets/img/contact-small.JPG') no-repeat center top;
         -webkit-background-size: cover;
            -moz-background-size: cover;
                 background-size: cover;
