@@ -1,5 +1,18 @@
 <h1>Annie Anna Belkin</h1>
 <em>Freelance Frontend Developer</em>
+
+<h2>CONTACT ME</h2>
+<p>
+  • Email: 
+  <a href="mailto:anniebeklin97@gmail.com" target="_blank">anniebeklin97@gmail.com</a><br>
+  • GitHub:
+  <a href="https://github.com/anniebelkin" target="_blank">anniebelkin</a><br>
+  • Linked-in:
+  <a href="https://www.linkedin.com/in/anniebelkin/" target="_blank">Annie Belkin</a><br>
+  • Facebook:
+  <a href="https://www.facebook.com/AnnieBelkin97" target="_blank">Annie Anna Moore</a><br>
+  
+<h2>ABOUT ME</h2>
 <p>Versatile front-end web developer with 2 years of experience designing, developing, and managing business websites. Looking      for full-time employment.</p>
 <p>After discovering my passion for web development, I couldn’t get enough. I made websites for friends and family, contributed to open source projects, and started my career as a freelancer - developing websites for local-businesses.</p>
 <p>Apart from being a web developer, I enjoy playing video games, reading books, playing guitar and singing. I spend a large amount of my free time exploring the latest technology advancements, studying new programming techniques and subjects like AI, machine learning and clean coding..</p>
@@ -71,7 +84,7 @@
 
 <h2>Portfolio</h2>
 <p>
-  <a href="https://amplace.co.il/"> • My Portfolio Website • </a><br>
+  <a href="https://amplace.co.il/" target="_blank"> • My Portfolio Website • </a><br>
   <a href="https://www.bengalcatisrael.amplace.co.il/" target="_blank"> • בית גידול לחתולים בנגליים - חתול בנגלי ישראל • </a><br>
   <a href="https://vladihandyman.amplace.co.il/" target="_blank"> • ולדי הרצף - ריצוף, גימור ושיפוץ עם ניסיון רב • </a><br>
   <a href="https://oliyastrology.amplace.co.il/" target="_blank"> • Оля Толочинская - Астрологическая консультация онлайн • </a><br>
