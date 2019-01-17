@@ -4,7 +4,7 @@
 <h2>CONTACT ME</h2>
 <p>
   • Email: 
-  <a href="mailto:anniebeklin97@gmail.com" target="_blank">anniebeklin97@gmail.com</a><br>
+  <a href="mailto:anniebelkin97@gmail.com" target="_blank">anniebelkin97@gmail.com</a><br>
   • GitHub:
   <a href="https://github.com/anniebelkin" target="_blank">anniebelkin</a><br>
   • Linked-in:
