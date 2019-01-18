@@ -57,6 +57,7 @@
         margin: 0;
         /* font style */
         font-weight: bold;
+        text-decoration: none;
         letter-spacing: 0.5px;
         font-size: 1.2rem;
         text-align: center;
