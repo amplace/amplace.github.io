@@ -9,13 +9,13 @@
         font-size: 0.8rem;
         height: 3rem;
         vertical-align: middle;
-
     }
 
     &:hover {
         border: 1px solid;
         border-radius: 10px;
         margin: -10px 0;
+        padding: 5px;
 
         & .about {
             display: inline-block;

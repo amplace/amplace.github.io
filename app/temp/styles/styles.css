@@ -436,6 +436,8 @@ select { /* 1 */
         color: mediumseagreen;
     }.fa-react {
         color: deepskyblue;
+    }.fa-php {
+        color: slateblue;
     }.row {
     display: block;
     width: 100%;
@@ -473,13 +475,13 @@ select { /* 1 */
         font-size: 0.8rem;
         height: 3rem;
         vertical-align: middle;
-
     }.tooltip:hover {
         border: 1px solid;
         -webkit-border-radius: 10px;
            -moz-border-radius: 10px;
                 border-radius: 10px;
         margin: -10px 0;
+        padding: 5px;
     }.tooltip:hover .about {
             display: inline-block;
         }h1 {
