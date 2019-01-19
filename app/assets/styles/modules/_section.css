@@ -44,7 +44,7 @@
 
     &__contact {
 
-        padding-bottom: 50px;
+        padding: 10px;
         font-size: 1.0rem;
         /* background */
         background: url('../../assets/img/contact-small.JPG') no-repeat center top;
@@ -57,6 +57,10 @@
 
         @mixin atMedium {
             background-image: url('../../assets/img/contact-large.JPG');
+        }
+
+        &-img {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
     }
 }

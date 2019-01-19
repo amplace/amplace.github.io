@@ -6,7 +6,21 @@
 
 .col {
     float: left;
+    margin-bottom: 10px;
     width: 100%;
+
+    &-xs {
+        @mixin atXSmall {
+            &-6 {
+                width: 50%;
+            }
+
+            &-4 {
+                margin: 10px;
+                width: calc(33% - 20px);
+            }
+        }
+    }
 
     &-sm {
         @mixin atMedium {

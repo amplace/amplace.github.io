@@ -386,7 +386,7 @@ select { /* 1 */
             padding: 10px 20px;
         }.section__contact {
 
-        padding-bottom: 50px;
+        padding: 10px;
         font-size: 1.0rem;
         /* background */
         background: url('../../assets/img/contact-small.JPG') no-repeat center top;
@@ -400,7 +400,11 @@ select { /* 1 */
     }@media (min-width: 992px) {.section__contact {
             background-image: url('../../assets/img/contact-large.JPG')
     }
-    }fieldset {
+    }.section__contact-img {
+            -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+               -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }fieldset {
     -webkit-border-radius: 15px;
        -moz-border-radius: 15px;
             border-radius: 15px;
@@ -450,8 +454,20 @@ select { /* 1 */
         display: table;
     }.col {
     float: left;
+    margin-bottom: 10px;
     width: 100%;
-}@media (min-width: 992px) {
+}@media (min-width: 600px) {
+            .col-xs-6 {
+                width: 50%;
+            }
+
+            .col-xs-4 {
+                margin: 10px;
+                width: -webkit-calc(33% - 20px);
+                width: -moz-calc(33% - 20px);
+                width: calc(33% - 20px);
+            }
+    }@media (min-width: 992px) {
             .col-sm-6 {
                 width: 50%;
             }
