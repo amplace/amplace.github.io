@@ -26,10 +26,10 @@
         background: url('../../assets/img/counters-small.JPG') no-repeat center top;
         background-size: cover;
         background-attachment: fixed;
+        justify-content: flex-start;
 
         @mixin atSmall {
             background-image: url('../../assets/img/counters-medium.JPG');
-            justify-content: flex-start;
         }
 
         @mixin atMedium {
@@ -68,4 +68,8 @@
             }
         }
     }
+}
+
+hr {
+    opacity: .5;
 }
