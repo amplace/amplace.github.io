@@ -7,7 +7,6 @@
     padding: 0 20px 20px 20px;
     /* text */
     text-align: center;
-    color: white;
 
     &--center {
         display: flex;
@@ -18,10 +17,10 @@
     &__content {
         width: 80%;
         max-width: 960px;
-        color: #004d63;
     }
 
     &__count {
+        color: $white;
         /* background */
         background: url('../../assets/img/counters-small.JPG') no-repeat center top;
         background-size: cover;
@@ -43,8 +42,9 @@
     }
 
     &__contact {
-
         padding: 10px;
+        /* font */
+        color: $white;
         font-size: 1.0rem;
         /* background */
         background: url('../../assets/img/contact-small.JPG') no-repeat center top;
@@ -69,6 +69,16 @@
             }
         }
     }
+}
+
+.day {
+    color: $blue;
+    background-color: $white;
+}
+
+.night {
+    color: $white;
+    background-color: $dark;
 }
 
 hr {
