@@ -691,34 +691,12 @@ select { /* 1 */
                  -o-animation-delay: 1s;
                     animation-delay: 1s;
             top: 20px;
-        }.dots {
-    position: relative;
-    font-size: .5rem;
-}.dots span {
-        opacity: 0;
-        -webkit-box-sizing: border-box;
-           -moz-box-sizing: border-box;
-                box-sizing: border-box;
-        -webkit-animation: pulse 2s infinite;
-           -moz-animation: pulse 2s infinite;
-             -o-animation: pulse 2s infinite;
-                animation: pulse 2s infinite;
-    }.dots span:nth-of-type(1) {
-            -webkit-animation-delay: .5s;
-               -moz-animation-delay: .5s;
-                 -o-animation-delay: .5s;
-                    animation-delay: .5s;
-        }.dots span:nth-of-type(2) {
-            -webkit-animation-delay: 1s;
-               -moz-animation-delay: 1s;
-                 -o-animation-delay: 1s;
-                    animation-delay: 1s;
-        }.dots span:nth-of-type(3) {
-            -webkit-animation-delay: 1.5s;
-               -moz-animation-delay: 1.5s;
-                 -o-animation-delay: 1.5s;
-                    animation-delay: 1.5s;
-        }@-webkit-keyframes pulse {
+        }.pulse {
+    -webkit-animation: pulse 1s infinite;
+       -moz-animation: pulse 1s infinite;
+         -o-animation: pulse 1s infinite;
+            animation: pulse 1s infinite;
+}@-webkit-keyframes pulse {
     0% {
         opacity: 0;
     }
@@ -866,6 +844,11 @@ select { /* 1 */
             -ms-transform: scale(0);
              -o-transform: scale(0);
                 transform: scale(0);
+    }.reveal h3 span {
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+        margin: 0 auto;
     }.animate img {
         visibility: visible;
         -webkit-transform: scale(1);
@@ -899,36 +882,41 @@ select { /* 1 */
                      -o-transition-delay: 0s;
                         transition-delay: 0s;
             }
+    }.animate span:nth-of-type(1) {
+        -webkit-animation: grow 3.5s steps(40, end);
+           -moz-animation: grow 3.5s steps(40, end);
+             -o-animation: grow 3.5s steps(40, end);
+                animation: grow 3.5s steps(40, end);
     }@-webkit-keyframes grow {
-    0% {
-        max-width: 0;
+    from {
+        max-width: 0
     }
 
-    100% {
-        max-width: 100%;
+    to {
+        max-width: 100%
     }
 }@-moz-keyframes grow {
-    0% {
-        max-width: 0;
+    from {
+        max-width: 0
     }
 
-    100% {
-        max-width: 100%;
+    to {
+        max-width: 100%
     }
 }@-o-keyframes grow {
-    0% {
-        max-width: 0;
+    from {
+        max-width: 0
     }
 
-    100% {
-        max-width: 100%;
+    to {
+        max-width: 100%
     }
 }@keyframes grow {
-    0% {
-        max-width: 0;
+    from {
+        max-width: 0
     }
 
-    100% {
-        max-width: 100%;
+    to {
+        max-width: 100%
     }
 }

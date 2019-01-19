@@ -44,27 +44,8 @@
     }
 }
 
-.dots {
-    position: relative;
-    font-size: .5rem;
-
-    & span {
-        opacity: 0;
-        box-sizing: border-box;
-        animation: pulse 2s infinite;
-
-        &:nth-of-type(1) {
-            animation-delay: .5s;
-        }
-
-        &:nth-of-type(2) {
-            animation-delay: 1s;
-        }
-
-        &:nth-of-type(3) {
-            animation-delay: 1.5s;
-        }
-    }
+.pulse {
+    animation: pulse 1s infinite;
 }
 
 @keyframes pulse {
