@@ -1,0 +1,50 @@
+.reveal {
+
+    & hr {
+        animation: grow .8s linear;
+        max-width: 100%;
+
+    }
+
+    & img {
+        visibility: hidden;
+        transform: scale(0);
+    }
+}
+
+.animate {
+
+    & img {
+        visibility: visible;
+        transform: scale(1);
+        transition: all .8s linear;
+
+        &:nth-of-type(1) {
+            transition-delay: 0s;
+        }
+
+        &:nth-of-type(2) {
+            transition-delay: 1s;
+        }
+
+        &:nth-of-type(3) {
+            transition-delay: 2s;
+        }
+
+        @mixin atXSmall {
+            &:nth-of-type(n) {
+                transition-delay: 0s;
+            }
+        }
+    }
+}
+
+@keyframes grow {
+    0% {
+        max-width: 0;
+    }
+
+    100% {
+        max-width: 100%;
+    }
+}
