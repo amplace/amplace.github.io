@@ -50,7 +50,7 @@
   • Russian •<br>
 </p>
 
-<h2>EXPIRIENCE</h2>
+<h2>EXPERIENCE</h2>
 <h3>Frontend Developer</h3>
 <em>Self-employed (2017 - Today)</em><br>
 <h3>Helpdesk</h3>
