@@ -404,7 +404,10 @@ select { /* 1 */
     -webkit-border-radius: 15px;
        -moz-border-radius: 15px;
             border-radius: 15px;
-}legend .title {
+}fieldset p {
+        max-width: 90%;
+        margin: 10px auto;
+    }legend .title {
     padding: 0 5px;
     margin-top: -10px;
 }.fab {

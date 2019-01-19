@@ -1,5 +1,10 @@
 fieldset {
     border-radius: 15px;
+
+    & p {
+        max-width: 90%;
+        margin: 10px auto;
+    }
 }
 
 legend .title {
