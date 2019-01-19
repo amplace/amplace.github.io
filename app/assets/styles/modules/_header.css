@@ -31,37 +31,5 @@
             margin-right: 0;
         }
     }
-
-    &--arrow {
-        border-left: 1px solid #fff;
-        border-bottom: 1px solid #fff;
-        position: absolute;
-        top: 0;
-        left: 50%;
-        width: 24px;
-        height: 24px;
-        animation: drop 1.5s infinite;
-
-        &-container {
-            position: relative;
-            min-height: 35px;
-        }
-    }
 }
 
-@keyframes drop {
-    0% {
-        transform: rotate(-45deg) translate(-12px, 0);
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        transform: rotate(-45deg) translate(-32px, 20px);
-        opacity: 0;
-    }
-
-}
