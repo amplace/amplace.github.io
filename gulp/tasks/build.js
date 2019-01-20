@@ -12,18 +12,18 @@ gulp.task('previewDocs', () => {
     browserSync.init({
         notify: false,
         server: {
-            baseDir: "docs"
+            baseDir: "."
         }
     });
 });
 
 gulp.task('deleteDocs', () => {
-    return del('./docs');
+    return del('./assets');
 });
 
 gulp.task('copyGeneralFiles', () => {
     return gulp.src('./app/assets/includes/**/*')
-        .pipe(gulp.dest('./docs/assets/includes'));
+        .pipe(gulp.dest('./assets/includes'));
 });
 
 gulp.task('optimizeImages', () => {
@@ -33,17 +33,17 @@ gulp.task('optimizeImages', () => {
             interlaced: true,
             multipass: true
         }))
-        .pipe(gulp.dest('./docs/assets/img'));
+        .pipe(gulp.dest('./assets/img'));
 });
 
 gulp.task('sitemap', ['usemin'], () => {
-    gulp.src('docs/**/*.html', {
+    gulp.src('./*.html', {
             read: false
         })
         .pipe(sitemap({
             siteUrl: 'https://amplace.co.il/'
         }))
-        .pipe(gulp.dest('./docs'));
+        .pipe(gulp.dest('.'));
 });
 
 gulp.task('usemin', ['deleteDocs', 'styles', 'scripts'], () => {
@@ -60,7 +60,7 @@ gulp.task('usemin', ['deleteDocs', 'styles', 'scripts'], () => {
                 return uglify()
             }]
         }))
-        .pipe(gulp.dest('./docs'));
+        .pipe(gulp.dest('.'));
 });
 
 gulp.task('build', ['deleteDocs', 'copyGeneralFiles', 'optimizeImages', 'usemin', 'sitemap']);
