@@ -10,4 +10,6 @@ body {
     font-family: 'Itim', cursive;
     padding: 0;
     margin: 0;
+    /* animation */
+    transition: all 1s linear;
 }

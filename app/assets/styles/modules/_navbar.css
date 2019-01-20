@@ -169,6 +169,185 @@
     }
 }
 
+#day-time {
+    /* position */
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    /* size */
+    width: 60px;
+    height: 30px;
+    /* border */
+    border: 1px solid $dark;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba($light, 0.2);
+    /* animation */
+    transition: all 1s linear;
+    overflow: hidden;
+
+    &:hover {
+        cursor: pointer;
+
+        & span {
+            &:nth-of-type(2) {
+                animation: float 2s linear infinite;
+            }
+
+            &:nth-of-type(3) {
+                animation: float 2s linear infinite;
+            }
+        }
+    }
+
+    & span {
+        /* position */
+        position: absolute;
+        /* animation */
+        transition: all 1s ease-in-out;
+
+        &:nth-of-type(1) {
+            /* position */
+            top: 5px;
+            left: 5px;
+            /* size */
+            width: 18px;
+            height: 18px;
+            /* shape */
+            border-radius: 50%;
+            /* animation */
+            transform-origin: 20px 20px;
+            transition: all 1s ease-in-out;
+
+            &:after {
+                /* display */
+                display: block;
+                content: "";
+                /* size */
+                width: 18px;
+                height: 18px;
+                /* shape */
+                border-radius: 50%;
+                /* animation */
+                transition: all 1s linear;
+            }
+        }
+
+        &:nth-of-type(2) {
+            top: 0;
+            left: 27px;
+
+        }
+
+        &:nth-of-type(3) {
+            bottom: 0;
+            right: 5px;
+
+        }
+    }
+
+    &.day,
+    &.day:active {
+        /* background */
+        background-color: $light;
+        color: $white;
+
+        & span {
+
+            &:nth-of-type(1) {
+                background-color: $orange;
+                animation: sun-pulse 2s linear infinite;
+
+                &:after {
+                    margin-left: 20px;
+                    background-color: $light;
+                }
+            }
+
+            &:nth-of-type(2) {
+                transform: translateX(0);
+            }
+
+            &:nth-of-type(3) {
+                transform: translateX(0);
+            }
+        }
+    }
+
+    &.night,
+    &.night:active {
+        /* background */
+        background-color: $dark;
+
+        & span {
+
+            &:nth-of-type(1) {
+                background-color: $white;
+                animation: moon-pulse 2s linear infinite;
+
+                &:after {
+                    margin-left: 5px;
+                    background-color: $dark;
+                }
+            }
+
+            &:nth-of-type(2) {
+                transform: translateX(10px);
+            }
+
+            &:nth-of-type(3) {
+                transform: translateX(-15px);
+            }
+        }
+    }
+}
+
+@keyframes float {
+
+    0%,
+    50%,
+    100% {
+        margin: 0;
+    }
+
+    25% {
+        margin: 0 1px;
+    }
+
+    75% {
+        margin: 0 -1px;
+    }
+}
+
+@keyframes sun-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba($orange, 0.4);
+    }
+
+    60% {
+        box-shadow: 0 0 0 10px rgba($orange, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba($orange, 0);
+    }
+}
+
+@keyframes moon-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba($white, 0.4);
+    }
+
+    50% {
+        box-shadow: 0 0 0 3px rgba($white, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba($white, 0);
+    }
+}
+
+
+
 .hidden {
     display: none !important;
 }
