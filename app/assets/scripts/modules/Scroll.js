@@ -18,7 +18,7 @@ const ScrollSpy = (thisMenu) => {
                 let link = $('#' + i + '-link');
                 let block = $('#' + i + '-section');
                 let inside = $('#' + i + '-animate');
-                if (link) {
+                if (link.length) {
                     $('.navbar__link--active').removeClass('navbar__link--active');
                     link.addClass('navbar__link--active');
                 }
