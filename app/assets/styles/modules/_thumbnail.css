@@ -2,7 +2,6 @@
     /* position */
     position: relative;
     /* size */
-    -ms-zoom: 0.30;
     transform: scale(0.30);
     transform-origin: 0 0;
 

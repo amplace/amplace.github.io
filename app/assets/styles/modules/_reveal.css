@@ -19,6 +19,15 @@
     }
 }
 
+.hide {
+    &-xs{
+        display: none;
+        @mixin atXSmall {
+            display: block;
+        }
+    }
+}
+
 .animate {
 
     & img {

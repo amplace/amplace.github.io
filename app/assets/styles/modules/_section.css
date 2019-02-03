@@ -29,10 +29,15 @@
     }
 
     &__count {
+        box-shadow: inset 0px 0px 20px 0px $dark, 0px 0px 20px $dark;
+        border-top-left-radius: 10%;
+        border-bottom-right-radius: 10%;
         /* text */
         color: $white;
         /* background */
-        background: url('../../assets/img/counters-small.JPG') no-repeat center top;
+        background-image: url('../../assets/img/counters-small.JPG');
+        background-position: center top;
+        background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
         justify-content: flex-start;
@@ -47,7 +52,7 @@
 
         &__content {
             width: 70%;
-            padding: 10px 20px;
+            padding: 5% 20px;
         }
     }
 
@@ -96,7 +101,6 @@
     color: $white;
     background-color: $dark;
     fill: $dark;
-
 }
 
 hr {
