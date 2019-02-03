@@ -3,6 +3,7 @@
     min-height: 51vh;
     width: 100%;
     /* position */
+    position: relative;
     margin: 0 auto;
     padding: 0 20px 20px 20px;
     /* text */
