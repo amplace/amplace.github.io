@@ -17,7 +17,7 @@
 
     /* navbar height when mobile menu is extended */
     &--is-extended {
-        height: 210px;
+        height: 250px;
 
         /* shrink height back to normal in larger screens */
         @mixin atSmall {

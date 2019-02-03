@@ -518,7 +518,7 @@ select { /* 1 */
         clear: both;
         display: table;
     }/* navbar height when mobile menu is extended */.navbar--is-extended {
-        height: 210px;
+        height: 250px;
     }/* shrink height back to normal in larger screens */@media (min-width: 768px) {.navbar--is-extended {
             height: 50px
     }
