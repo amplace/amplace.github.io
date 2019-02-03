@@ -1,32 +1,40 @@
 .thumbnail {
+    /* position */
     position: relative;
+    /* size */
     -ms-zoom: 0.35;
     transform: scale(0.35);
     transform-origin: 0 0;
-    
+
     &-container {
-    position: relative;
-    height: 35vh;
-    width: 35vw;
-    max-width: calc(960px*0.35);
-    display: inline-block;
+        /* pointer */
+        cursor: pointer;
+        /* position */
+        position: relative;
+        display: inline-block;
+        /* size */
+        height: 35vh;
+        width: 35vw;
+        max-width: calc(960px*0.35);
 
-    @mixin atMedium {
-        margin: 2%;
+        /* add padding at larger screens */
+        @mixin atMedium {
+            margin: 2%;
+        }
     }
-    }
-    
+
     & iframe {
-    pointer-events: none;
-    border: 3px solid;
-    /* position */
-    position: absolute;
-    top: 0;
-    left: 0;
-    /* size */
-    width: 100vw;
-    max-width: 960px;
-    height: 100vh;
-}
-
+        /* no clickable */
+        pointer-events: none;
+        /* border */
+        border: 3px solid;
+        /* position */
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* size */
+        width: 100vw;
+        max-width: 960px;
+        height: 100vh;
+    }
 }
