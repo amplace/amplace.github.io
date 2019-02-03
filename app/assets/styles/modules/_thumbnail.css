@@ -6,11 +6,13 @@
     transform-origin: 0 0;
 
     &-container {
+        box-shadow: 10px 10px 8px #aaaaaa;
         /* pointer */
         cursor: pointer;
         /* position */
         position: relative;
         display: inline-block;
+        z-index: 2;
         /* size */
         height: 30vh;
         width: 30vw;

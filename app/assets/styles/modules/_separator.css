@@ -14,15 +14,15 @@
 
     &.triangle {
         top: -5px;
-        background: transparent;
+        fill: $white;
     }
 
     &.wave-single {
         top: -200px;
+        z-index: 3;
     }
 
     &-top {
         margin-top: 200px;
     }
-
 }
