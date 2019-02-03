@@ -1,0 +1,40 @@
+.separator {
+    display: block;
+    background: 0 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    fill: inherit;
+
+    &.wave {
+        bottom: 0;
+
+        & .large {
+            opacity: .5;
+        }
+
+        & .small {
+            opacity: .3;
+        }
+
+    }
+
+    &.big-triangle {
+        bottom: 0;
+    }
+
+    &.triangle {
+        top: -5px;
+        background: transparent;
+    }
+
+    &.wave-single {
+        top: -200px;
+    }
+
+    &-top {
+        margin-top: 200px;
+    }
+
+}

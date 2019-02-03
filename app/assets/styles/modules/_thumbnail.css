@@ -2,8 +2,8 @@
     /* position */
     position: relative;
     /* size */
-    -ms-zoom: 0.35;
-    transform: scale(0.35);
+    -ms-zoom: 0.30;
+    transform: scale(0.30);
     transform-origin: 0 0;
 
     &-container {
@@ -13,13 +13,13 @@
         position: relative;
         display: inline-block;
         /* size */
-        height: 35vh;
-        width: 35vw;
-        max-width: calc(960px*0.35);
+        height: 30vh;
+        width: 30vw;
+        max-width: calc(1200px*0.3);
 
         /* add padding at larger screens */
         @mixin atMedium {
-            margin: 2%;
+            margin: 1vw;
         }
     }
 
@@ -34,7 +34,7 @@
         left: 0;
         /* size */
         width: 100vw;
-        max-width: 960px;
+        max-width: 1200px;
         height: 100vh;
     }
 }
