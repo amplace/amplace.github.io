@@ -75,11 +75,13 @@
 .day {
     color: $blue;
     background-color: $white;
+    fill: $white;
 }
 
 .night {
     color: $white;
     background-color: $dark;
+    fill: $dark;
 }
 
 hr {

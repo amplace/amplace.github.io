@@ -1,7 +1,9 @@
 .header {
+    position: relative;
     /* size */
     width: 100%;
     height: 100vh;
+    max-height: 100vh;
     /* spacing */
     margin: 0;
     padding: 10px;
