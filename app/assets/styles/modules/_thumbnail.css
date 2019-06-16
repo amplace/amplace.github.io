@@ -22,6 +22,10 @@
         @mixin atMedium {
             margin: 1vw;
         }
+        
+        &:hover .thumbnail-text{
+            opacity: 0.8;
+    }
     }
 
     & iframe {
@@ -37,5 +41,27 @@
         width: 100vw;
         max-width: 1200px;
         height: 100vh;
+        
+        
     }
+    
+    &-text {
+        background-color: black;
+        color: white;
+        position: absolute;
+        z-index: 500;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        padding: 10px;
+        overflow-y: scroll;
+        
+        & hr {
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+    
+    
+    
 }
